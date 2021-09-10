@@ -53,17 +53,30 @@
 
     * Inline links:
         * [Visit GitHub!](www.github.com)
-         ```
+        ```
             [Visit GitHub!](www.github.com)
-         ```
+        ```
         * [You're **really, really** going to want to see this.](www.dailykitten.com)
-         ```
+        ```
             [You're **really, really** going to want to see this.](www.dailykitten.com)
-         ```
+        ```
         * The Latest News from [the BBC](www.bbc.com/news)
-         ```
+        ```
             The Latest News from [the BBC](www.bbc.com/news)
-         ```
+        ```
+    * Reference Links:
+        * Do you want to [see something fun][a fun place]?  Well, do I have [the website for you][another fun place]!
+
+        [a fun place]: www.zombo.com
+        [another fun place]: www.google.com
+
+        ```
+            Do you want to [see something fun][a fun place]?  
+            Well, do I have [the website for you][another fun place]!
+
+            [a fun place]: www.zombo.com
+            [another fun place]: www.google.com
+        ```
 1. then
 1. and then
 1. ...
