@@ -1,4 +1,4 @@
-## **Markdown Tutorial**
+## [**Markdown Tutorial**](https://www.markdowntutorial.com/)
 
 1. Italics and Bold
 
@@ -84,6 +84,17 @@
             ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
         ```
         > Note: Alt text ([Benjamin Bannekat] in this case) is a phrase or sentence that describes the image for the visually impaired
+
+        > Note: You can use the following syntax to resize images
+        
+        * <img src="https://octodex.github.com/images/bannekat.png" alt="Benjamin Bannekat" width="250" height="250">
+        ```
+            <img src="https://octodex.github.com/images/bannekat.png" alt="Benjamin Bannekat" width="250" height="250">
+        ```
+       
+        
+
+
     
     * Reference Image
         * [The founding father][Father]
@@ -94,6 +105,7 @@
 
             [Father]: http://octodex.github.com/images/founding-father.jpg
         ```
+        
       
 
 1. Blockquotes
