@@ -51,7 +51,7 @@
 
 1. Links
 
-    * Inline links:
+    * Inline links
         * [Visit GitHub!](www.github.com)
         ```
             [Visit GitHub!](www.github.com)
@@ -64,7 +64,7 @@
         ```
             The Latest News from [the BBC](www.bbc.com/news)
         ```
-    * Reference Links:
+    * Reference Links
         * Do you want to [see something fun][a fun place]?  Well, do I have [the website for you][another fun place]!
 
         [a fun place]: www.zombo.com
@@ -77,7 +77,25 @@
             [a fun place]: www.zombo.com
             [another fun place]: www.google.com
         ```
-1. then
+1. Images
+    * Inline Image Link
+        * ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
+        ```
+            ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
+        ```
+        > Note: Alt text ([Benjamin Bannekat] in this case) is a phrase or sentence that describes the image for the visually impaired
+    
+    * Reference Image
+        * [The founding father][Father]
+
+        [Father]: http://octodex.github.com/images/founding-father.jpg
+        ```
+            [The founding father][Father]
+
+            [Father]: http://octodex.github.com/images/founding-father.jpg
+        ```
+      
+
 1. and then
 1. ...
 1. more ....
