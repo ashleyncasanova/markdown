@@ -130,5 +130,40 @@
          * Salmon
          * Butter
         ```
-1. more ....
+1. Paragraphs
+    * Single straight line: add each verse to its own line
+
+        Do I contradict myself?
+        Very well then I contradict myself,
+        (I am large, I contain multitudes.)
+        ```
+        Do I contradict myself?
+        Very well then I contradict myself,
+        (I am large, I contain multitudes.)
+        ```
+    * Hard Break: forcefullt insert a new line using spaces
+
+        Do I contradict myself?
+
+        Very well then I contradict myself,
+
+        (I am large, I contain multitudes.)
+        ```
+        Do I contradict myself?
+
+        Very well then I contradict myself,
+
+        (I am large, I contain multitudes.)
+        ```
+    * Soft Break: insert two spaces after each row  
+    
+        Do I contradict myself?  
+        Very well then I contradict myself,  
+        (I am large, I contain multitudes.)
+        ```
+        Do I contradict myself?  
+        Very well then I contradict myself,  
+        (I am large, I contain multitudes.)
+        ```
+    
 1. ...
