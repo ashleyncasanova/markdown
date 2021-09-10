@@ -106,6 +106,29 @@
 
             > "Her eyes had called him and his soul had leaped at the call. To live, to err, to fall, to triumph, to recreate life out of life!"
     ```
-1. ...
+1. Lists
+    * Ordered (numbered)
+        1. Cut the cheese
+        2. Slice the tomatoes
+        3. Rub the tomatoes in flour
+
+        ```
+         1. Cut the cheese
+         2. Slice the tomatoes
+         3. Rub the tomatoes in flour
+        ```
+        > Note: can write the same list using all ones and markdown will be the same
+
+    * Unordered (bullet point)
+        * Milk
+        * Eggs
+        * Salmon
+        * Butter
+        ```
+         * Milk
+         * Eggs
+         * Salmon
+         * Butter
+        ```
 1. more ....
 1. ...
