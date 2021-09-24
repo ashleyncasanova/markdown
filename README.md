@@ -1,4 +1,5 @@
-## [**Markdown Tutorial**](https://www.markdowntutorial.com/)
+## **Markdown Tutorials**
+### [**Basics**](https://www.markdowntutorial.com/)
 
 1. Italics and Bold
 
@@ -178,4 +179,78 @@
         (I am large, I contain multitudes.)
         ```
     
-1. ...
+### [**Extended**](https://www.markdownguide.org/extended-syntax/)
+1. **Tables**
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
+> Note: Cell widths can vary and output will be the same
+
+> Note: Can align text in the columns using colon/s (:)
+
+> Option: Try Markdowns [Table Generator](https://www.tablesgenerator.com/markdown_tables) for a graphical approach
+
+
+2. **Fenced Codeblocks**
+```
+    {
+     "firstName": "John",
+     "lastName": "Smith",
+     "age": 25
+    }
+```
+
+    ```
+        ```
+        {
+         "firstName": "John",
+         "lastName": "Smith",
+         "age": 25
+        }
+        ```
+    ```
+
+3. **Syntax Hilighting**
+```json
+    {
+     "firstName": "John",
+     "lastName": "Smith",
+     "age": 25
+    }
+```
+```
+    ```json
+    {
+     "firstName": "John",
+     "lastName": "Smith",
+     "age": 25
+    }
+    ```
+```
+4. Footnotes
+
+> Note: Cannot get to work.. may need to download a different version of markdown (common mark, GFM, etc..) a list is available in the header link above.
+
+```
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+```
+### **Other**
+1. [**Anchoring**](https://www.youtube.com/watch?v=EKqhENATIKg)
