@@ -254,3 +254,50 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 ```
 ### **Other**
 1. [**Anchoring**](https://www.youtube.com/watch?v=EKqhENATIKg)
+
+Step 1: Make a header with a section called Defines and another called Custom/Names.
+
+Step 2: Link each section using the format below.
+
+>Note: The hashtag links to a header somewhere in the page; when you click the text it will bring you to that header.
+
+Step 3: Add the sections you want to link to.
+
+>Note: For a header with spaces, you can just use a dash, but for all other non-standard characters you have to make a custom name (header + html name field). 
+
+```markdown
+# Header
+[Defines](#defines)
+
+[Custom/Names](#custom-names)
+.
+
+.
+
+.
+
+.
+
+### Defines
+These are the defines
+
+### <a name="custom-names"></a>Custom/Names
+these are custom names
+```
+# Header
+[Defines](#defines)
+
+[Custom/Names](#custom-names)
+.
+
+.
+
+.
+
+.
+
+### Defines
+These are the defines
+
+### <a name="custom-names"></a>Custom/Names
+these are custom names
