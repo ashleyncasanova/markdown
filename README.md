@@ -1,4 +1,27 @@
 ## **Markdown Tutorials**
+____
+## **Contents**
+
+[Basics](#basics)
+
+1. [Italics and Bold](#italics-and-bold)
+1. [Headers](#headers)
+1. [Links](#links)
+1. [Images](#images)
+1. [Blockquotes](#blockquotes)
+1. [Lists](#lists)
+1. [Paragraphs](#paragraphs)
+
+[Extended](#extended)
+
+1. [Tables](#tables)
+1. [Fenced Codeblocks](#fenced-codeblocks)
+1. [Syntax Hilighting](#syntax-hilighting)
+1. [Footnotes](#footnotes)
+
+[Other](#other)
+1. [Anchoring](#anchoring)
+___
 ### [**Basics**](https://www.markdowntutorial.com/)
 
 1. Italics and Bold
@@ -255,22 +278,35 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 ### **Other**
 1. [**Anchoring**](https://www.youtube.com/watch?v=EKqhENATIKg)
 
-Step 1: Make a header with a section called Defines and another called Custom/Names.
+# Header
+[Name](#name)
 
-Step 2: Link each section using the format below.
+[Name with spaces](#name-with-spaces)
 
->Note: The hashtag links to a header somewhere in the page; when you click the text it will bring you to that header.
+[Custom/Names](#custom-names)
 
-Step 3: Add the sections you want to link to.
+.
 
->Note: For a header with spaces, you can just use a dash, but for all other non-standard characters you have to make a custom name (header + html name field). 
+.
+
+.
+
+### Name
+These are names
+
+### Name with spaces
+These are names with spaces
+
+### <a name="custom-names"></a>Custom/Names
+These are custom names
 
 ```markdown
 # Header
-[Defines](#defines)
+[Name](#name)
+
+[Name with spaces](#name-with-spaces)
 
 [Custom/Names](#custom-names)
-.
 
 .
 
@@ -278,26 +314,14 @@ Step 3: Add the sections you want to link to.
 
 .
 
-### Defines
-These are the defines
+### Name
+These are names
+
+### Name with spaces
+These are names with spaces
 
 ### <a name="custom-names"></a>Custom/Names
-these are custom names
+These are custom names
 ```
-# Header
-[Defines](#defines)
-
-[Custom/Names](#custom-names)
-.
-
-.
-
-.
-
-.
-
-### Defines
-These are the defines
-
-### <a name="custom-names"></a>Custom/Names
-these are custom names
+>Note: For a name with spaces, you can just use a dash, but for all other non-standard characters you have to make a custom name (header + html name field). 
+___
