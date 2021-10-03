@@ -2,7 +2,7 @@
 ____
 ## **Contents**
 
-[Basics](#basics)
+[**Basics**](#basics)
 
 1. [Italics and Bold](#italics-and-bold)
 1. [Headers](#headers)
@@ -12,19 +12,21 @@ ____
 1. [Lists](#lists)
 1. [Paragraphs](#paragraphs)
 
-[Extended](#extended)
+[**Extended**](#extended)
 
 1. [Tables](#tables)
 1. [Fenced Codeblocks](#fenced-codeblocks)
 1. [Syntax Hilighting](#syntax-hilighting)
 1. [Footnotes](#footnotes)
 
-[Other](#other)
+[**Other**](#other)
 1. [Anchoring](#anchoring)
+
+[**Resources**](#resources)
 ___
 ### [**Basics**](https://www.markdowntutorial.com/)
 
-1. Italics and Bold
+1. ### **Italics and Bold**
 
     * _Italics_
     ```
@@ -41,7 +43,7 @@ ___
         **_Both_**
     ```
 
-1. Headers
+1. ### **Headers**
 
     * # Header one
     ```
@@ -73,7 +75,7 @@ ___
         ###### Header six
     ```
 
-1. Links
+1. ### **Links**
 
     * Inline links
         * [Visit GitHub!](www.github.com)
@@ -101,7 +103,7 @@ ___
             [a fun place]: www.zombo.com
             [another fun place]: www.google.com
         ```
-1. Images
+1. ### **Images**
     * Inline Image Link
         * ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
         ```
@@ -132,7 +134,7 @@ ___
         
       
 
-1. Blockquotes
+1. ### **Blockquotes**
     * I read this interesting quote the other day:
 
         > "Her eyes had called him and his soul had leaped at the call. To live, to err, to fall, to triumph, to recreate life out of life!"
@@ -142,7 +144,7 @@ ___
 
             > "Her eyes had called him and his soul had leaped at the call. To live, to err, to fall, to triumph, to recreate life out of life!"
     ```
-1. Lists
+1. ### **Lists**
     * Ordered (numbered)
         1. Cut the cheese
         2. Slice the tomatoes
@@ -166,7 +168,7 @@ ___
          * Salmon
          * Butter
         ```
-1. Paragraphs
+1. ### **Paragraphs**
     * Single straight line: add each verse to its own line
 
         Do I contradict myself?
@@ -203,7 +205,7 @@ ___
         ```
     
 ### [**Extended**](https://www.markdownguide.org/extended-syntax/)
-1. **Tables**
+1. ### **Tables**
 
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
@@ -222,7 +224,7 @@ ___
 > Option: Try Markdowns [Table Generator](https://www.tablesgenerator.com/markdown_tables) for a graphical approach
 
 
-2. **Fenced Codeblocks**
+2. ### **Fenced Codeblocks**
 ```
     {
      "firstName": "John",
@@ -241,7 +243,7 @@ ___
         ```
     ```
 
-3. **Syntax Hilighting**
+3. ### **Syntax Hilighting**
 ```json
     {
      "firstName": "John",
@@ -258,7 +260,7 @@ ___
     }
     ```
 ```
-4. Footnotes
+4. ### **Footnotes**
 
 > Note: Cannot get to work.. may need to download a different version of markdown (common mark, GFM, etc..) a list is available in the header link above.
 
@@ -276,7 +278,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     Add as many paragraphs as you like.
 ```
 ### **Other**
-1. [**Anchoring**](https://www.youtube.com/watch?v=EKqhENATIKg)
+1. ### [**Anchoring**](https://www.youtube.com/watch?v=EKqhENATIKg)
 
 # Header
 [Name](#name)
@@ -325,3 +327,6 @@ These are custom names
 ```
 >Note: For a name with spaces, you can just use a dash, but for all other non-standard characters you have to make a custom name (header + html name field). 
 ___
+
+### Resources
+1. [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
