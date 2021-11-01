@@ -117,11 +117,7 @@ ___
         ```
             <img src="https://octodex.github.com/images/bannekat.png" alt="Benjamin Bannekat" width="250" height="250">
         ```
-       
-        
 
-
-    
     * Reference Image
         * [The founding father][Father]
 
@@ -131,8 +127,20 @@ ___
 
             [Father]: http://octodex.github.com/images/founding-father.jpg
         ```
-        
-      
+    * Screenshots / User Images
+    > Note: You can host your own images in the same directory (projects/markdown in this case) and call them using the following syntax    
+
+![winston](ween.jpeg)
+
+```markdown
+![winston](ween.jpeg)
+```
+
+<img src="ween.jpeg" alt="winston" width="" height="250"> 
+
+```markdown
+<img src="ween.jpeg" alt="winston" width="" height="250"> 
+```
 
 1. ### **Blockquotes**
     * I read this interesting quote the other day:
