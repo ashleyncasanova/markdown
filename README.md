@@ -337,4 +337,4 @@ These are custom names
 ___
 
 ### Resources
-1. [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+1. [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/). 
